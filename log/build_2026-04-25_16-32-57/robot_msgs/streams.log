@@ -1,0 +1,280 @@
+[0.285s] Invoking command in '/home/sidibe/train/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake /home/sidibe/train/src/robot_msgs -DCMAKE_INSTALL_PREFIX=/home/sidibe/train/install/robot_msgs
+[0.316s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.354s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.615s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.679s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.706s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.709s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.714s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.756s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.942s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.288s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.289s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.305s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.305s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.305s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.305s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.318s] -- Found PythonExtra: .so  
+[1.397s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.407s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'xmllint' to check XML markup files
+[1.409s] -- Configuring done
+[1.426s] -- Generating done
+[1.432s] -- Build files have been written to: /home/sidibe/train/build/robot_msgs
+[1.439s] Invoked command in '/home/sidibe/train/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake /home/sidibe/train/src/robot_msgs -DCMAKE_INSTALL_PREFIX=/home/sidibe/train/install/robot_msgs
+[1.439s] Invoking command in '/home/sidibe/train/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_msgs -- -j16 -l16
+[1.466s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.472s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.474s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.477s] [  7%] Built target ament_cmake_python_copy_robot_msgs
+[1.627s] running egg_info
+[1.628s] creating robot_msgs.egg-info
+[1.628s] writing robot_msgs.egg-info/PKG-INFO
+[1.628s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[1.628s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[1.628s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[1.629s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[1.643s] [  7%] Built target robot_msgs__rs
+[1.648s] [  7%] Built target ament_cmake_python_build_robot_msgs_egg
+[1.690s] [  7%] Built target robot_msgs__cpp
+[1.694s] [ 10%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[1.695s] [ 12%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/get_transform__functions.c.o[0m
+[1.696s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.696s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.698s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.743s] [ 22%] [32m[1mLinking C shared library librobot_msgs__rosidl_generator_c.so[0m
+[1.775s] [ 22%] Built target robot_msgs__rosidl_generator_c
+[1.782s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.783s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.784s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.900s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/get_transform__type_support.cpp.o[0m
+[1.902s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[1.918s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[1.919s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.945s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[1.948s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[2.018s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[2.021s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/get_transform__type_support.cpp.o[0m
+[2.040s] [ 52%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[2.043s] [ 55%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[2.055s] [ 57%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[2.058s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[2.063s] [ 62%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_c.so[0m
+[2.076s] [ 65%] [32m[1mLinking C shared library librobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.096s] [ 65%] Built target robot_msgs__rosidl_typesupport_c
+[2.101s] [ 65%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[2.205s] [ 67%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_cpp.so[0m
+[2.240s] [ 67%] Built target robot_msgs__rosidl_typesupport_cpp
+[2.288s] [ 70%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.291s] [ 72%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.321s] [ 75%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.335s] [ 75%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[2.341s] [ 75%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[2.362s] [ 75%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[2.377s] [ 75%] Built target robot_msgs
+[2.393s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.673s] [ 77%] Built target robot_msgs__py
+[2.685s] [ 80%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_add_two_ints_s.c.o[0m
+[2.685s] [ 82%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_get_transform_s.c.o[0m
+[2.744s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/librobot_msgs__rosidl_generator_py.so[0m
+[2.772s] [ 85%] Built target robot_msgs__rosidl_generator_py
+[2.785s] [ 87%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.787s] [ 90%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.789s] [ 92%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.845s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.845s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.868s] [100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext
+[2.873s] [100%] Built target robot_msgs__rosidl_typesupport_c__pyext
+[2.878s] [100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.886s] Invoked command in '/home/sidibe/train/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_msgs -- -j16 -l16
+[2.887s] Invoking command in '/home/sidibe/train/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_msgs
+[2.892s] -- Install configuration: ""
+[2.892s] -- Installing: /home/sidibe/train/install/robot_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_msgs
+[2.892s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/get_transform.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__struct.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__type_support.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__functions.c
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__functions.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__struct.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__functions.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__functions.c
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__type_support.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/add_two_ints.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/library_path.sh
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/library_path.dsv
+[2.893s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so
+[2.893s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so" to ""
+[2.893s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.893s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so
+[2.894s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__traits.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__builder.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__type_support.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__type_support.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__builder.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__struct.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__traits.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__struct.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/add_two_ints.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/get_transform.hpp
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.894s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.894s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/dds_fastrtps
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.895s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__type_support.c
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__type_support.c
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so
+[2.895s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so
+[2.895s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so" to ""
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.895s] -- Up-to-date: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__type_support.cpp
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__type_support.cpp
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[2.895s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so
+[2.896s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so
+[2.896s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so" to ""
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/pythonpath.sh
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/pythonpath.dsv
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_get_transform_s.c
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_ints_s.c
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_ints.py
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_get_transform.py
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.896s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.897s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so
+[2.897s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.897s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.920s] Listing '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs'...
+[2.920s] Compiling '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py'...
+[2.920s] Listing '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv'...
+[2.920s] Compiling '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py'...
+[2.920s] Compiling '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_ints.py'...
+[2.920s] Compiling '/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_get_transform.py'...
+[2.922s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.923s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.923s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.923s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so
+[2.923s] -- Set runtime path of "/home/sidibe/train/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so" to ""
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/ament_index/resource_index/rust_packages/robot_msgs
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/Cargo.toml
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/src
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/src/srv
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/src/srv/rmw.rs
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/src/srv.rs
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/src/lib.rs
+[2.923s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/rust/build.rs
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/AddTwoInts.idl
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/GetTransform.idl
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/AddTwoInts.srv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/AddTwoInts_Request.msg
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/AddTwoInts_Response.msg
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/GetTransform.srv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/GetTransform_Request.msg
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/srv/GetTransform_Response.msg
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/ament_index/resource_index/package_run_dependencies/robot_msgs
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/ament_index/resource_index/parent_prefix_path/robot_msgs
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.sh
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.dsv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/path.sh
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/environment/path.dsv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/local_setup.bash
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/local_setup.sh
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/local_setup.zsh
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/local_setup.dsv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/package.dsv
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/ament_index/resource_index/packages/robot_msgs
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.924s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.925s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig.cmake
+[2.926s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig-version.cmake
+[2.926s] -- Installing: /home/sidibe/train/install/robot_msgs/share/robot_msgs/package.xml
+[2.927s] Invoked command in '/home/sidibe/train/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_msgs

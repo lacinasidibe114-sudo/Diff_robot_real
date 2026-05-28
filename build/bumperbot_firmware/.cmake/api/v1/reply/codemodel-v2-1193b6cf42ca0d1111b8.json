@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bcf3560789e35e3dd492.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_firmware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_firmware_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_firmware_egg-a6aa7b38302549a1aa14.json",
+					"name" : "ament_cmake_python_build_bumperbot_firmware_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_firmware-a1dfebcf8da72f62890e.json",
+					"name" : "ament_cmake_python_copy_bumperbot_firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_firmware-deb5fb5bb6475ccba765.json",
+					"name" : "bumperbot_firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_firmware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_firmware_uninstall-42efa00cd616fa105a0e.json",
+					"name" : "bumperbot_firmware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_receiver-acc77881e0e881e3cf5d.json",
+					"name" : "simple_serial_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_transmitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_transmitter-e4f7c5c7120b5f4217fa.json",
+					"name" : "simple_serial_transmitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-80173fa401a6971061d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sidibe/train/build/bumperbot_firmware",
+		"source" : "/home/sidibe/train/src/bumperbot_firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

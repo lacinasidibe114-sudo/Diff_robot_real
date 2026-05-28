@@ -1,0 +1,25 @@
+[0.516s] Invoking command in '/home/sidibe/train/src/arduino': PYTHONPATH=/home/sidibe/train/build/arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino build --build-base /home/sidibe/train/build/arduino/build install --record /home/sidibe/train/build/arduino/install.log --single-version-externally-managed install_data
+[0.650s] running egg_info
+[0.650s] writing ../../build/arduino/arduino.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/arduino/arduino.egg-info/dependency_links.txt
+[0.651s] writing entry points to ../../build/arduino/arduino.egg-info/entry_points.txt
+[0.651s] writing requirements to ../../build/arduino/arduino.egg-info/requires.txt
+[0.651s] writing top-level names to ../../build/arduino/arduino.egg-info/top_level.txt
+[0.652s] reading manifest file '../../build/arduino/arduino.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../../build/arduino/arduino.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] copying arduino/simple_serial_transmitter.py -> /home/sidibe/train/build/arduino/build/lib/arduino
+[0.652s] running install
+[0.652s] running install_lib
+[0.653s] copying /home/sidibe/train/build/arduino/build/lib/arduino/simple_serial_transmitter.py -> /home/sidibe/train/install/arduino/lib/python3.10/site-packages/arduino
+[0.653s] byte-compiling /home/sidibe/train/install/arduino/lib/python3.10/site-packages/arduino/simple_serial_transmitter.py to simple_serial_transmitter.cpython-310.pyc
+[0.654s] running install_data
+[0.654s] running install_egg_info
+[0.655s] removing '/home/sidibe/train/install/arduino/lib/python3.10/site-packages/arduino-0.0.0-py3.10.egg-info' (and everything under it)
+[0.655s] Copying ../../build/arduino/arduino.egg-info to /home/sidibe/train/install/arduino/lib/python3.10/site-packages/arduino-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.667s] Installing simple_serial_receiver script to /home/sidibe/train/install/arduino/lib/arduino
+[0.667s] Installing simple_serial_transmitter script to /home/sidibe/train/install/arduino/lib/arduino
+[0.667s] writing list of installed files to '/home/sidibe/train/build/arduino/install.log'
+[0.685s] Invoked command in '/home/sidibe/train/src/arduino' returned '0': PYTHONPATH=/home/sidibe/train/build/arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino build --build-base /home/sidibe/train/build/arduino/build install --record /home/sidibe/train/build/arduino/install.log --single-version-externally-managed install_data

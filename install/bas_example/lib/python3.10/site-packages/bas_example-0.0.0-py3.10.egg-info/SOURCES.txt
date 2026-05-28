@@ -1,0 +1,25 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bas_example/bas_example.egg-info/PKG-INFO
+../../build/bas_example/bas_example.egg-info/SOURCES.txt
+../../build/bas_example/bas_example.egg-info/dependency_links.txt
+../../build/bas_example/bas_example.egg-info/entry_points.txt
+../../build/bas_example/bas_example.egg-info/requires.txt
+../../build/bas_example/bas_example.egg-info/top_level.txt
+../../build/bas_example/bas_example.egg-info/zip-safe
+bas_example/__init__.py
+bas_example/simple_lifecycle_node.py
+bas_example/simple_parameter.py
+bas_example/simple_publisher.py
+bas_example/simple_service_client.py
+bas_example/simple_service_server.py
+bas_example/simple_subscriber.py
+bas_example/simple_tf_kinematics.py
+bas_example/simple_tf_kinematics_request quaternion.py
+bas_example/simple_tf_kinematics_request.py
+bas_example/test.py
+resource/bas_example
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

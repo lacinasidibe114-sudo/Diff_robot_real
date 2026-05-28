@@ -1,0 +1,28 @@
+[0.571s] Invoking command in '/home/sidibe/train/src/bas_example': PYTHONPATH=/home/sidibe/train/build/bas_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/bas_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bas_example build --build-base /home/sidibe/train/build/bas_example/build install --record /home/sidibe/train/build/bas_example/install.log --single-version-externally-managed install_data
+[0.701s] running egg_info
+[0.701s] writing ../../build/bas_example/bas_example.egg-info/PKG-INFO
+[0.701s] writing dependency_links to ../../build/bas_example/bas_example.egg-info/dependency_links.txt
+[0.701s] writing entry points to ../../build/bas_example/bas_example.egg-info/entry_points.txt
+[0.701s] writing requirements to ../../build/bas_example/bas_example.egg-info/requires.txt
+[0.702s] writing top-level names to ../../build/bas_example/bas_example.egg-info/top_level.txt
+[0.702s] reading manifest file '../../build/bas_example/bas_example.egg-info/SOURCES.txt'
+[0.703s] writing manifest file '../../build/bas_example/bas_example.egg-info/SOURCES.txt'
+[0.703s] running build
+[0.703s] running build_py
+[0.703s] running install
+[0.703s] running install_lib
+[0.704s] running install_data
+[0.704s] running install_egg_info
+[0.705s] removing '/home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example-0.0.0-py3.10.egg-info' (and everything under it)
+[0.705s] Copying ../../build/bas_example/bas_example.egg-info to /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example-0.0.0-py3.10.egg-info
+[0.706s] running install_scripts
+[0.718s] Installing simple_lifecycle_node script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_parameter script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_publisher script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_service_client script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_service_server script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_subscriber script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_tf_kinematics script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] Installing simple_tf_kinematics_request script to /home/sidibe/train/install/bas_example/lib/bas_example
+[0.718s] writing list of installed files to '/home/sidibe/train/build/bas_example/install.log'
+[0.733s] Invoked command in '/home/sidibe/train/src/bas_example' returned '0': PYTHONPATH=/home/sidibe/train/build/bas_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/bas_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bas_example build --build-base /home/sidibe/train/build/bas_example/build install --record /home/sidibe/train/build/bas_example/install.log --single-version-externally-managed install_data

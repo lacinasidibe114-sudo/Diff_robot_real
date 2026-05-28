@@ -1,0 +1,44 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+running egg_info
+writing bumperbot_firmware.egg-info/PKG-INFO
+writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[ 66%] Built target bumperbot_firmware
+[ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+/usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::SimpleSerialReceiver()':
+simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x147): undefined reference to `LibSerial::SerialPort::SerialPort()'
+/usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x336): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+/usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x360): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+/usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x6b0): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::~SimpleSerialReceiver()':
+simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverD2Ev[_ZN20SimpleSerialReceiverD5Ev]+0x2c): undefined reference to `LibSerial::SerialPort::Close()'
+/usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverD2Ev[_ZN20SimpleSerialReceiverD5Ev]+0x3e): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::timerCallback()':
+simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiver13timerCallbackEv[_ZN20SimpleSerialReceiver13timerCallbackEv]+0x56): undefined reference to `LibSerial::SerialPort::IsDataAvailable()'
+/usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiver13timerCallbackEv[_ZN20SimpleSerialReceiver13timerCallbackEv]+0xb3): undefined reference to `LibSerial::SerialPort::ReadLine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char, unsigned long)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_serial_receiver.dir/build.make:159: simple_serial_receiver] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/simple_serial_receiver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+/usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::SimpleSerialTransmitter()':
+simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x132): undefined reference to `LibSerial::SerialPort::SerialPort()'
+/usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x483): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+/usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x4ad): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+/usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x627): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::~SimpleSerialTransmitter()':
+simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterD2Ev[_ZN23SimpleSerialTransmitterD5Ev]+0x2c): undefined reference to `LibSerial::SerialPort::Close()'
+/usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterD2Ev[_ZN23SimpleSerialTransmitterD5Ev]+0x3e): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::msgCallback(std_msgs::msg::String_<std::allocator<void> > const&)':
+simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitter11msgCallbackERKN8std_msgs3msg7String_ISaIvEEE[_ZN23SimpleSerialTransmitter11msgCallbackERKN8std_msgs3msg7String_ISaIvEEE]+0x247): undefined reference to `LibSerial::SerialPort::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_serial_transmitter.dir/build.make:159: simple_serial_transmitter] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/simple_serial_transmitter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

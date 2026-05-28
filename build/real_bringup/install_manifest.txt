@@ -1,0 +1,17 @@
+/home/sidibe/train/install/real_bringup/share/real_bringup/config/diff_drive_controller.yaml
+/home/sidibe/train/install/real_bringup/share/real_bringup/launch/real_robot.launch.py
+/home/sidibe/train/install/real_bringup/share/ament_index/resource_index/package_run_dependencies/real_bringup
+/home/sidibe/train/install/real_bringup/share/ament_index/resource_index/parent_prefix_path/real_bringup
+/home/sidibe/train/install/real_bringup/share/real_bringup/environment/ament_prefix_path.sh
+/home/sidibe/train/install/real_bringup/share/real_bringup/environment/ament_prefix_path.dsv
+/home/sidibe/train/install/real_bringup/share/real_bringup/environment/path.sh
+/home/sidibe/train/install/real_bringup/share/real_bringup/environment/path.dsv
+/home/sidibe/train/install/real_bringup/share/real_bringup/local_setup.bash
+/home/sidibe/train/install/real_bringup/share/real_bringup/local_setup.sh
+/home/sidibe/train/install/real_bringup/share/real_bringup/local_setup.zsh
+/home/sidibe/train/install/real_bringup/share/real_bringup/local_setup.dsv
+/home/sidibe/train/install/real_bringup/share/real_bringup/package.dsv
+/home/sidibe/train/install/real_bringup/share/ament_index/resource_index/packages/real_bringup
+/home/sidibe/train/install/real_bringup/share/real_bringup/cmake/real_bringupConfig.cmake
+/home/sidibe/train/install/real_bringup/share/real_bringup/cmake/real_bringupConfig-version.cmake
+/home/sidibe/train/install/real_bringup/share/real_bringup/package.xml

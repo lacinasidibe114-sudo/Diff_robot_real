@@ -1,0 +1,16 @@
+/home/sidibe/train/install/real_description/share/real_description/urdf/bumperbot.urdf.xacro
+/home/sidibe/train/install/real_description/share/ament_index/resource_index/package_run_dependencies/real_description
+/home/sidibe/train/install/real_description/share/ament_index/resource_index/parent_prefix_path/real_description
+/home/sidibe/train/install/real_description/share/real_description/environment/ament_prefix_path.sh
+/home/sidibe/train/install/real_description/share/real_description/environment/ament_prefix_path.dsv
+/home/sidibe/train/install/real_description/share/real_description/environment/path.sh
+/home/sidibe/train/install/real_description/share/real_description/environment/path.dsv
+/home/sidibe/train/install/real_description/share/real_description/local_setup.bash
+/home/sidibe/train/install/real_description/share/real_description/local_setup.sh
+/home/sidibe/train/install/real_description/share/real_description/local_setup.zsh
+/home/sidibe/train/install/real_description/share/real_description/local_setup.dsv
+/home/sidibe/train/install/real_description/share/real_description/package.dsv
+/home/sidibe/train/install/real_description/share/ament_index/resource_index/packages/real_description
+/home/sidibe/train/install/real_description/share/real_description/cmake/real_descriptionConfig.cmake
+/home/sidibe/train/install/real_description/share/real_description/cmake/real_descriptionConfig-version.cmake
+/home/sidibe/train/install/real_description/share/real_description/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/home/sidibe/train/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16
+Invoked command in '/home/sidibe/train/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16

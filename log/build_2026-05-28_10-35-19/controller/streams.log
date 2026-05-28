@@ -1,0 +1,30 @@
+[0.272s] Invoking command in '/home/sidibe/train/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/controller -- -j16 -l16
+[0.304s] Invoked command in '/home/sidibe/train/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/controller -- -j16 -l16
+[0.305s] Invoking command in '/home/sidibe/train/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/controller
+[0.314s] -- Install configuration: ""
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/lib/controller/simple_controller.py
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/config
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/config/controllers.yaml
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/config/bumperbot_controllers.yaml
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/config/bumperbot_controllers_real.yaml
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/launch
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/launch/diff_controller.launch.py
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/launch/real_robot.launch.py
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/launch/controller_cinematique.launch.py
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/launch/controller.launch.py
+[0.314s] -- Up-to-date: /home/sidibe/train/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/environment/ament_prefix_path.sh
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/environment/ament_prefix_path.dsv
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/environment/path.sh
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/environment/path.dsv
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/local_setup.bash
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/local_setup.sh
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/local_setup.zsh
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/local_setup.dsv
+[0.315s] -- Installing: /home/sidibe/train/install/controller/share/controller/package.dsv
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/ament_index/resource_index/packages/controller
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/cmake/controllerConfig.cmake
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[0.315s] -- Up-to-date: /home/sidibe/train/install/controller/share/controller/package.xml
+[0.317s] Invoked command in '/home/sidibe/train/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/controller

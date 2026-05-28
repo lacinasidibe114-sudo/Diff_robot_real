@@ -1,0 +1,447 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bdd1f447c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bdd1f594c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bdd1f594c40>>, mixin_verb=('build',))
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sidibe/train'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino' with type 'ros.ament_python' and name 'arduino'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/bas_example) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bas_example' with type 'ros.ament_python' and name 'bas_example'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_firmware' with type 'ros.ament_cmake' and name 'bumperbot_firmware'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_msgs' with type 'ros.ament_cmake' and name 'robot_msgs'
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/sidibe/train/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/arduino', 'merge_install': False, 'path': '/home/sidibe/train/src/arduino', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bas_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'bas_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/bas_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/bas_example', 'merge_install': False, 'path': '/home/sidibe/train/src/bas_example', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/bumperbot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/bumperbot_firmware', 'merge_install': False, 'path': '/home/sidibe/train/src/bumperbot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/controller', 'merge_install': False, 'path': '/home/sidibe/train/src/controller', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/robot_description', 'merge_install': False, 'path': '/home/sidibe/train/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'robot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sidibe/train/build/robot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sidibe/train/install/robot_msgs', 'merge_install': False, 'path': '/home/sidibe/train/src/robot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.262s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.263s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sidibe/train/src/arduino' with build type 'ament_python'
+[0.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/arduino/share/arduino/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/arduino/share/arduino/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/arduino/share/arduino/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sidibe/train/src/bas_example' with build type 'ament_python'
+[0.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('bas_example', 'ament_prefix_path')
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bas_example/share/bas_example/hook/ament_prefix_path.ps1'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bas_example/share/bas_example/hook/ament_prefix_path.dsv'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bas_example/share/bas_example/hook/ament_prefix_path.sh'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sidibe/train/src/bumperbot_firmware' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sidibe/train/src/bumperbot_firmware'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sidibe/train/src/controller' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sidibe/train/src/controller'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sidibe/train/src/robot_description' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sidibe/train/src/robot_description'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sidibe/train/src/robot_msgs' with build type 'ament_cmake'
+[0.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sidibe/train/src/robot_msgs'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.427s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sidibe/train/src/arduino'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.574s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sidibe/train/src/bas_example'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/controller -- -j16 -l16
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_description -- -j16 -l16
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_msgs -- -j16 -l16
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/controller -- -j16 -l16
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/controller
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_description -- -j16 -l16
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_description
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/controller
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller' for CMake config files
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/bin'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib/pkgconfig/controller.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib/python3.10/site-packages'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/bin'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/controller/share/controller/package.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.sh'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.bash'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.zsh'
+[0.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/controller/share/colcon-core/packages/controller)
+[0.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller' for CMake module files
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller' for CMake config files
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/bin'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib/pkgconfig/controller.pc'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/lib/python3.10/site-packages'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/controller/bin'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/controller/share/controller/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/controller/share/controller/package.zsh'
+[0.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/controller/share/colcon-core/packages/controller)
+[0.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description' for CMake module files
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description' for CMake config files
+[0.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_description
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/bin'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/lib/python3.10/site-packages'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/bin'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/robot_description/share/robot_description/package.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.bash'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.zsh'
+[0.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/robot_description/share/colcon-core/packages/robot_description)
+[0.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description' for CMake module files
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description' for CMake config files
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/bin'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/lib/python3.10/site-packages'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_description/bin'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.ps1'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/robot_description/share/robot_description/package.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.sh'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.bash'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_description/share/robot_description/package.zsh'
+[0.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/robot_description/share/colcon-core/packages/robot_description)
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/bumperbot_firmware
+[1.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware' for CMake module files
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/bumperbot_firmware
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware' for CMake config files
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib'
+[1.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib/python3.10/site-packages'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/bin'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware' for CMake module files
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware' for CMake config files
+[1.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib'
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/lib/python3.10/site-packages'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bumperbot_firmware/bin'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/src/arduino': PYTHONPATH=/home/sidibe/train/build/arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino build --build-base /home/sidibe/train/build/arduino/build install --record /home/sidibe/train/build/arduino/install.log --single-version-externally-managed install_data
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/src/bas_example': PYTHONPATH=/home/sidibe/train/build/bas_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/bas_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bas_example build --build-base /home/sidibe/train/build/bas_example/build install --record /home/sidibe/train/build/bas_example/install.log --single-version-externally-managed install_data
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example' for CMake module files
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/src/bas_example' returned '0': PYTHONPATH=/home/sidibe/train/build/bas_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/bas_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bas_example build --build-base /home/sidibe/train/build/bas_example/build install --record /home/sidibe/train/build/bas_example/install.log --single-version-externally-managed install_data
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example' for CMake config files
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example/lib'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example/bin'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example/lib/pkgconfig/bas_example.pc'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example/lib/python3.10/site-packages'
+[1.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('bas_example', 'pythonpath')
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bas_example/share/bas_example/hook/pythonpath.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/bas_example/share/bas_example/hook/pythonpath.dsv'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/bas_example/share/bas_example/hook/pythonpath.sh'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/bas_example/bin'
+[1.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bas_example)
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bas_example/share/bas_example/package.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/bas_example/share/bas_example/package.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bas_example/share/bas_example/package.sh'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bas_example/share/bas_example/package.bash'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/bas_example/share/bas_example/package.zsh'
+[1.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/bas_example/share/colcon-core/packages/bas_example)
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino' for CMake module files
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/src/arduino' returned '0': PYTHONPATH=/home/sidibe/train/build/arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sidibe/train/install/arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino build --build-base /home/sidibe/train/build/arduino/build install --record /home/sidibe/train/build/arduino/install.log --single-version-externally-managed install_data
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino' for CMake config files
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino/lib'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino/lib/pkgconfig/arduino.pc'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino/lib/python3.10/site-packages'
+[1.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino', 'pythonpath')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/arduino/share/arduino/hook/pythonpath.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/arduino/share/arduino/hook/pythonpath.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/arduino/share/arduino/hook/pythonpath.sh'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/arduino/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino)
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/arduino/share/arduino/package.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/arduino/share/arduino/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/arduino/share/arduino/package.sh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/arduino/share/arduino/package.bash'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/arduino/share/arduino/package.zsh'
+[1.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/arduino/share/colcon-core/packages/arduino)
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/robot_msgs -- -j16 -l16
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sidibe/train/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_msgs
+[1.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msgs)
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs' for CMake module files
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sidibe/train/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/robot_msgs
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs' for CMake config files
+[1.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'cmake_prefix_path')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.sh'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib'
+[1.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'ld_library_path_lib')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib/pkgconfig/robot_msgs.pc'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib/python3.10/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.bash'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.zsh'
+[1.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/robot_msgs/share/colcon-core/packages/robot_msgs)
+[1.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msgs)
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs' for CMake module files
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs' for CMake config files
+[1.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'cmake_prefix_path')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib'
+[1.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'ld_library_path_lib')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sidibe/train/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.sh'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/bin'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib/pkgconfig/robot_msgs.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/lib/python3.10/site-packages'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/sidibe/train/install/robot_msgs/bin'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.sh'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.bash'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/sidibe/train/install/robot_msgs/share/robot_msgs/package.zsh'
+[1.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sidibe/train/install/robot_msgs/share/colcon-core/packages/robot_msgs)
+[1.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.577s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.581s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.581s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.581s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.593s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sidibe/train/install/local_setup.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sidibe/train/install/_local_setup_util_ps1.py'
+[1.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sidibe/train/install/setup.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sidibe/train/install/local_setup.sh'
+[1.596s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sidibe/train/install/_local_setup_util_sh.py'
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sidibe/train/install/setup.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sidibe/train/install/local_setup.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sidibe/train/install/setup.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sidibe/train/install/local_setup.zsh'
+[1.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sidibe/train/install/setup.zsh'

@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/sidibe/train/src/robot_msgs:srv/AddTwoInts.srv",
+    "/home/sidibe/train/src/robot_msgs:srv/GetTransform.srv"
+  ]
+}

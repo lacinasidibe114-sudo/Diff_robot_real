@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- ============================================================= -->
+  <!-- Argument is_sim :                                             -->
+  <!--   true  (defaut) = simulation Gazebo Fortress                 -->
+  <!--   false          = robot REEL (Arduino via port serie)        -->
+  <!-- Passe par la ligne de commande xacro : ... is_sim:=False      -->
+  <!-- ============================================================= -->
+  <xacro:arg name="is_sim" default="true"/>
+  <xacro:property name="is_sim" value="$(arg is_sim)"/>
+
+  <!-- ============================================================= -->
+  <!-- ros2_control : choix du materiel selon is_sim                 -->
+  <!-- ============================================================= -->
+  <ros2_control name="RobotSystem" type="system">
+
+    <hardware>
+      <xacro:if value="${is_sim}">
+        <!-- SIMULATION : plugin systeme Gazebo Fortress -->
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </xacro:if>
+      <xacro:unless value="${is_sim}">
+        <!-- ROBOT REEL : ton interface materielle (serie Arduino).  -->
+        <!-- 'port' est lu par BumperbotInterface::on_init via        -->
+        <!-- info_.hardware_parameters.at("port"). Adapte-le a ton    -->
+        <!-- port (souvent /dev/ttyUSB0 ou /dev/ttyACM0).             -->
+        <plugin>bumperbot_firmware/BumperbotInterface</plugin>
+        <param name="port">/dev/ttyUSB0</param>
+      </xacro:unless>
+    </hardware>
+
+    <!-- ========================================================= -->
+    <!-- ORDRE IMPORTANT pour le robot reel :                       -->
+    <!--   index 0 -> 'r' (DROITE),  index 1 -> 'l' (GAUCHE)        -->
+    <!-- car write() fait velocity_commands_[0]='r', [1]='l'.       -->
+    <!-- => wheel_right_joint EN PREMIER, wheel_left_joint ENSUITE. -->
+    <!-- ========================================================= -->
+
+    <!-- Roue DROITE = index 0 -->
+    <joint name="wheel_right_joint">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Roue GAUCHE = index 1 -->
+    <joint name="wheel_left_joint">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+  <!-- ============================================================= -->
+  <!-- Le plugin systeme ign_ros2_control n'est utile QU'EN SIM.     -->
+  <!-- (Il embarque son propre controller_manager dans Gazebo.)      -->
+  <!-- Sur le robot reel, on ne met rien ici : c'est ros2_control_node -->
+  <!-- (lance dans le launch reel) qui joue ce role.                 -->
+  <!-- ============================================================= -->
+  <xacro:if value="${is_sim}">
+    <gazebo>
+      <plugin filename="ign_ros2_control-system"
+              name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(find controller)/config/bumperbot_controllers.yaml</parameters>
+        <use_sim_time>true</use_sim_time>
+      </plugin>
+    </gazebo>
+  </xacro:if>
+
+</robot>

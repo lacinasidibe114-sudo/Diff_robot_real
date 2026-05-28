@@ -1,0 +1,10 @@
+[console_scripts]
+simple_lifecycle_node = bas_example.simple_lifecycle_node:main
+simple_parameter = bas_example.simple_parameter:main
+simple_publisher = bas_example.simple_publisher:main
+simple_service_client = bas_example.simple_service_client:main
+simple_service_server = bas_example.simple_service_server:main
+simple_subscriber = bas_example.simple_subscriber:main
+simple_tf_kinematics = bas_example.simple_tf_kinematics:main
+simple_tf_kinematics_request = bas_example.simple_tf_kinematics_request:main
+

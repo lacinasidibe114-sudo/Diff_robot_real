@@ -1,0 +1,4 @@
+[console_scripts]
+simple_serial_receiver = arduino.simple_serial_receiver:main
+simple_serial_transmitter = arduino.simple_serial_transmitter:main
+

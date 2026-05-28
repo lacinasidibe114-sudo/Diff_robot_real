@@ -1,0 +1,66 @@
+[0.273s] Invoking command in '/home/sidibe/train/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[0.321s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.321s] [ 50%] Built target simple_serial_receiver
+[0.321s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[0.324s] [ 83%] Built target simple_serial_transmitter
+[0.494s] running egg_info
+[0.495s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.495s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.495s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.497s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.497s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.517s] [ 83%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[2.122s] [100%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[2.213s] [100%] Built target bumperbot_firmware
+[2.223s] Invoked command in '/home/sidibe/train/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --build /home/sidibe/train/build/bumperbot_firmware -- -j16 -l16
+[2.224s] Invoking command in '/home/sidibe/train/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/bumperbot_firmware
+[2.230s] -- Install configuration: ""
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[2.230s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.230s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[2.230s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.230s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[2.230s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[2.253s] Listing '/home/sidibe/train/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[2.255s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[2.255s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[2.256s] -- Set runtime path of "/home/sidibe/train/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[2.256s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/include/include
+[2.256s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/include/include/bumperbot_firmware
+[2.256s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[2.257s] -- Installing: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[2.257s] -- Up-to-date: /home/sidibe/train/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[2.258s] Invoked command in '/home/sidibe/train/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sidibe/train/install/bas_example:/home/sidibe/train/install/arduino:/opt/ros/humble /usr/bin/cmake --install /home/sidibe/train/build/bumperbot_firmware

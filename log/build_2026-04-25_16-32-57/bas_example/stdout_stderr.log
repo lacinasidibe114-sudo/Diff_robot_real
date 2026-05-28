@@ -1,0 +1,65 @@
+running egg_info
+creating ../../build/bas_example/bas_example.egg-info
+writing ../../build/bas_example/bas_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/bas_example/bas_example.egg-info/dependency_links.txt
+writing entry points to ../../build/bas_example/bas_example.egg-info/entry_points.txt
+writing requirements to ../../build/bas_example/bas_example.egg-info/requires.txt
+writing top-level names to ../../build/bas_example/bas_example.egg-info/top_level.txt
+writing manifest file '../../build/bas_example/bas_example.egg-info/SOURCES.txt'
+reading manifest file '../../build/bas_example/bas_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/bas_example/bas_example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sidibe/train/build/bas_example/build
+creating /home/sidibe/train/build/bas_example/build/lib
+creating /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_tf_kinematics.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/test.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/__init__.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_tf_kinematics_request quaternion.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_tf_kinematics_request.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_publisher.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_subscriber.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_service_server.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_parameter.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+copying bas_example/simple_service_client.py -> /home/sidibe/train/build/bas_example/build/lib/bas_example
+running install
+running install_lib
+creating /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_tf_kinematics.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/test.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/__init__.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_tf_kinematics_request quaternion.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_tf_kinematics_request.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_publisher.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_subscriber.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_service_server.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_parameter.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+copying /home/sidibe/train/build/bas_example/build/lib/bas_example/simple_service_client.py -> /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/test.py to test.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_tf_kinematics_request quaternion.py to simple_tf_kinematics_request quaternion.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_tf_kinematics_request.py to simple_tf_kinematics_request.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_publisher.py to simple_publisher.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_service_server.py to simple_service_server.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_parameter.py to simple_parameter.cpython-310.pyc
+byte-compiling /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example/simple_service_client.py to simple_service_client.cpython-310.pyc
+running install_data
+creating /home/sidibe/train/install/bas_example/share/ament_index
+creating /home/sidibe/train/install/bas_example/share/ament_index/resource_index
+creating /home/sidibe/train/install/bas_example/share/ament_index/resource_index/packages
+copying resource/bas_example -> /home/sidibe/train/install/bas_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/sidibe/train/install/bas_example/share/bas_example
+running install_egg_info
+Copying ../../build/bas_example/bas_example.egg-info to /home/sidibe/train/install/bas_example/lib/python3.10/site-packages/bas_example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_parameter script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_publisher script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_service_client script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_service_server script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_subscriber script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_tf_kinematics script to /home/sidibe/train/install/bas_example/lib/bas_example
+Installing simple_tf_kinematics_request script to /home/sidibe/train/install/bas_example/lib/bas_example
+writing list of installed files to '/home/sidibe/train/build/bas_example/install.log'

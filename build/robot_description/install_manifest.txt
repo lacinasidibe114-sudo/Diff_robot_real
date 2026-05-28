@@ -1,0 +1,35 @@
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/wheel_right_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/caster_rear_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/caster_front_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/wheel_left_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/base_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/meshes/imu_link.STL
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/bumperbot_ros2_control.xacro
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf .urdf
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf /configuration/robot.urdf _base.usd
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf /configuration/robot.urdf _robot.usd
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf /configuration/robot.urdf _sensor.usd
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf /configuration/robot.urdf _physics.usd
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf /robot.urdf .usd
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/bumperbot_gazebo.xacro
+/home/sidibe/train/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+/home/sidibe/train/install/robot_description/share/robot_description/launch/display.launch.py
+/home/sidibe/train/install/robot_description/share/robot_description/launch/gazebo_complet.launch.py
+/home/sidibe/train/install/robot_description/share/robot_description/launch/gazebo.launch.py
+/home/sidibe/train/install/robot_description/share/robot_description/rviz/display.rviz
+/home/sidibe/train/install/robot_description/share/robot_description/config/di.yaml
+/home/sidibe/train/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+/home/sidibe/train/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+/home/sidibe/train/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+/home/sidibe/train/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+/home/sidibe/train/install/robot_description/share/robot_description/environment/path.sh
+/home/sidibe/train/install/robot_description/share/robot_description/environment/path.dsv
+/home/sidibe/train/install/robot_description/share/robot_description/local_setup.bash
+/home/sidibe/train/install/robot_description/share/robot_description/local_setup.sh
+/home/sidibe/train/install/robot_description/share/robot_description/local_setup.zsh
+/home/sidibe/train/install/robot_description/share/robot_description/local_setup.dsv
+/home/sidibe/train/install/robot_description/share/robot_description/package.dsv
+/home/sidibe/train/install/robot_description/share/ament_index/resource_index/packages/robot_description
+/home/sidibe/train/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+/home/sidibe/train/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+/home/sidibe/train/install/robot_description/share/robot_description/package.xml
